@@ -1,0 +1,207 @@
+/*responsive design css
+    
+    /*  (portrait tablets, 800px and down) */
+@media only screen and  (max-width:600px) {
+  .main-content {
+    width: 100vw;
+  }
+  table{
+    overflow-y: auto;
+    display: block;
+
+}
+  nav {
+    width: 100%;
+    height: 100px;
+
+    margin: 0px;
+    margin-bottom: 20px;
+    border: none;
+  }
+  nav a {
+    font-size: 1em;
+  }
+  .create-button {
+    height: 55px;
+    width: 150px;
+    font-size: 2em;
+  }
+
+  .poem-type-button {
+    height: 40px;
+    width: 120px;
+    font-size: medium;
+    margin-right: 1%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .poem-type-button:hover {
+    font-size: 1.4em;
+  }
+  .about-div-main {
+    width: 100%;
+    font-size: 1em;
+    height: max-content;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  #devsImage1,
+  #devsImage2,
+  #devsImage3,
+  #devsImage4,
+  #devsImage5,
+  #devsImage6,
+  figcaption {
+    max-width: 100%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .wrapperForFlexboxOrGrid {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .editor-div {
+    height: 100%;
+    width: 100%;
+  }
+  .title-input {
+    width: 600px;
+    margin-left: 100px;
+  }
+  #rightColumn {
+    padding: 2rem;
+  }
+  .user-poem-options-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .discover-div-1,
+  .discover-div-2,
+  .discover-div-3,
+  .discover-div-4 {
+    font-size: 1em;
+
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+    height: max-content;
+    width: max-content;
+  }
+} 
+#leftColumn{
+    padding: 5rem;
+
+
+}
+.type-descreption-p{
+    width: 10vw;
+    height: max-content;
+
+}
+table{
+    overflow-x: auto;
+    /* overflow-y: auto; */
+    display: block;
+
+}
+
+@media only screen and (min-width:600px) {
+  .main-content {
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+    height: 100px;
+
+    margin: 0px;
+    margin-bottom: 20px;
+    border: none;
+  }
+  nav a {
+    font-size: 2.2em;
+  }
+  .create-button {
+    height: 75px;
+    width: 250px;
+    font-size: 2.5em;
+  }
+
+  .poem-type-button {
+    height: 75px;
+    width: 250px;
+
+    margin-right: 1%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .about-div-main {
+    font-size: 1em;
+    height: max-content;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 40vw;
+
+    padding: 35px;
+    border-radius: 30px;
+  }
+  #devsImage1,
+  #devsImage2,
+  #devsImage3,
+  #devsImage4,
+  #devsImage5,
+  #devsImage6,
+  figcaption {
+    max-width: 100%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .wrapperForFlexboxOrGrid {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+  }
+  .title-input {
+    width: 600px;
+    margin-left: 100px;
+  }
+
+  .user-poem-options-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .discover-div-1,
+  .discover-div-2,
+  .discover-div-3,
+  .discover-div-4 {
+    font-size: 1em;
+    background-color: rgba(249, 189, 177, 0.9);
+    box-shadow: 4px 4px 12px #644c4d;
+    width: 400px;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    padding: 1em;
+  }
+  .devs-div-main {
+    display: flex;
+    align-items: space-between;
+    flex-wrap: wrap;
+  }
+  table{
+    overflow-x: auto;
+    display: block;
+    overflow-y: auto;
+
+}
+}

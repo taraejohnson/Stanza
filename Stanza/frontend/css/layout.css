@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#div--panels-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+#textEditor-menu {
+  display: flex;
+  flex-direction: row;
+}
+.wrapperForFlexboxOrGrid {
+  display: flex;
+  flex-direction: row;
+  padding-top: 200px;
+}
+.editorContainer {
+  position: relative;
+}
+.devs-div-main {
+  display: flex;
+  align-items: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  background-color: rgba(249, 189, 177, 0.3);
+  border-radius: 20px;
+}
+.discover-div-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: auto;
+  margin-top: 420px;
+}
+.user-poems-main-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: auto;
+  margin-top: 250px;
+}
+.discover-div-1,
+.discover-div-2,
+.discover-div-3,
+.discover-div-4 {
+  font-size: 1em;
+  background-color: rgba(249, 189, 177, 0.9);
+  box-shadow: 4px 4px 12px #644c4d;
+  width: 400px;
+  height: auto;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  padding: 1em;
+}
+.description-header,
+.type-description-p,
+.type-examples-div {
+  margin-left: 60px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+.user-poems-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
